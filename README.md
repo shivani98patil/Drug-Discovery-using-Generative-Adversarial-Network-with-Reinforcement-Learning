@@ -20,8 +20,8 @@ Also, the finding showed that GAN model have different problems like
 
 **Programming Language** - Python
 
-Modules - Tensorflow and Rdkit
-Data - ZINC*
+**Modules** - Tensorflow and Rdkit
+**Data** - ZINC
 
 **Code Explanation- **
 Pre- training process:
