@@ -1,6 +1,6 @@
 # Drug-Discovery-using-Generative-Adversarial-Network-with-Reinforcement-Learning
 
-**Introduction-**<br />
+**Introduction-**
 1. Drug development timelines are long and they depend upon numerous factors<br />
 2. Drug Development needs about 15-16 years and billions of dollars to launch the drug in the market.<br /> 
 3. Overall failure rate is 96% and 90% of the drugs fail in first clinical trail itself. Hence it is important to come with a better and reliable approach to solve this problem<br />
@@ -18,8 +18,8 @@ Also, the finding showed that GAN model have different problems like<br />
 	A. Generator and Discriminator are given image data as input.<br />
 	B. When generator generates incomplete samples which are given directly to the discriminator.<br />
 
-Programming Language - Python
-Modules - Tensorflow and Rdkit
+Programming Language - Python<br />
+Modules - Tensorflow and Rdkit<br />
 Data - ZINC*
 
 **Code Explanation-**<br />
