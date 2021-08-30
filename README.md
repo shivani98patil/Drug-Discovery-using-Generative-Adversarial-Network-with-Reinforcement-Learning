@@ -1,13 +1,13 @@
 # Drug-Discovery-using-Generative-Adversarial-Network-with-Reinforcement-Learning
 
-**Introduction-**
+**Introduction-**<br />
 1. Drug development timelines are long and they depend upon numerous factors<br />
 2. Drug Development needs about 15-16 years and billions of dollars to launch the drug in the market.<br /> 
 3. Overall failure rate is 96% and 90% of the drugs fail in first clinical trail itself. Hence it is important to come with a better and reliable approach to solve this problem<br />
 4. The problem can be solved by using sophisticated Deep Learning algorithms to ensure the drug discovery is faster and also overcomes the problem of failure in trails<br />
 5. Deep Learning approach improves discovery and decision making using abundant and high-quality data<br />
 
-**Survey-**
+**Survey-**<br />
 When surveyed about Artificial Intelligence used in Health Care Industry. Some of the approaches taken by the researchers were<br />
 	1. Vibrational auto encoders<br />
 	2. Adversarial auto encoders<br />
@@ -22,7 +22,7 @@ Programming Language - Python
 Modules - Tensorflow and Rdkit
 Data - ZINC*
 
-**Code Explanation-**
+**Code Explanation-**<br />
 Pre- training process:<br />
 Step 1. Initially we are pre- training our generator. For first iteration after 10 epoch test new data is generated and after that for 40 epoch test new data is generated.<br />
 Step 2. Generator generates fake data based on pe-trained generator. After which that data is loaded into discriminator for training.<br />
