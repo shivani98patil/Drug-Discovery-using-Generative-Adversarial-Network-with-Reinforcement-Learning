@@ -18,7 +18,7 @@ Also, the finding showed that GAN model have different problems like
 	A. Generator and Discriminator are given image data as input.
 	B. When generator generates incomplete samples which are given directly to the discriminator.
 
-Programming Language - Python
+**Programming Language - Python**
 Modules - Tensorflow and Rdkit
 Data - ZINC*
 
