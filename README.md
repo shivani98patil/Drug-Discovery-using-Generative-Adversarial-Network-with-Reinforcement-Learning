@@ -28,7 +28,7 @@ Pre- training process:<br />
 Step 1. Initially we are pre- training our generator. For first iteration after 10 epoch test new data is generated and after that for 40 epoch test new data is generated.<br />
 Step 2. Generator generates fake data based on pe-trained generator. After which that data is loaded into discriminator for training.<br />
 Step 3. Then we pre- train discriminator. It is trained for 3 epochs on generated data for 50 iterations.<br />
-Reinforcement Learning Process:
+Reinforcement Learning Process:<br />
 Step 1.  We train generator once and discriminator 2 times. After which we balance the generator and discriminator. <br />
 Step 2. After generator is trained once, we calculate the reward and update the generator parameters and rollout policy.<br />
 Step 3. Then we train discriminator by loading fake data in it for 2 epochs.<br />
