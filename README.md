@@ -23,6 +23,9 @@ Also, the finding showed that GAN model have different problems like<br />
 **Modules** - Tensorflow and Rdkit<br />
 **Data** - ZINC*
 
+We have tried solving the above mentioned problem in this project. 
+Do check out our research paper for more information!
+This is the link - [Drug Discovery using Generative Adversarial Network using Reinforcement Learning](https://ieeexplore.ieee.org/document/9402449)
 
 
 
