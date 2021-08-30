@@ -26,14 +26,21 @@ Also, the finding showed that GAN model have different problems like
 
 **Code Explanation -**
 Pre- training process:
+
 Step 1. Initially we are pre- training our generator. For first iteration after 10 epoch test new data is generated and after that for 40 epoch test new data is generated.
+
 Step 2. Generator generates fake data based on pe-trained generator. After which that data is loaded into discriminator for training.
+
 Step 3. Then we pre- train discriminator. It is trained for 3 epochs on generated data for 50 iterations .
 
 **Reinforcement Learning Process:-**
+
 Step 1.  We train generator once and discriminator 2 times. After which we balance the generator and discriminator. 
+
 Step 2. After generator is trained once, we calculate the reward and update the generator parameters and rollout policy.
+
 Step 3. Then we train discriminator by loading fake data in it for 2 epochs.
+
 Step 4. After every 1 iteration of reinforcement learning process we test the model once.
 
 
